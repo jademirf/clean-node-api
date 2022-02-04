@@ -1,0 +1,33 @@
+{
+  "name": "clean-node-api",
+  "version": "1.0.0",
+  "description": "Estudando clean archtecture - Rodrigo Manguinho",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "lint-staged": {
+    "*.js": ["standard --fix", "git add"]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jademirf/clean-node-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jademirf/clean-node-api/issues"
+  },
+  "homepage": "https://github.com/jademirf/clean-node-api#readme",
+  "devDependencies": {
+    "husky": "^7.0.4",
+    "lint-staged": "^12.3.3",
+    "standard": "^16.0.4"
+  }
+}
