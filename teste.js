@@ -1,4 +1,4 @@
 function test() {
   return {};
-  asdf gfd sad
+  asdf gfd 
 }
