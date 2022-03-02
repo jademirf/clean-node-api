@@ -2,6 +2,7 @@ class LoginRouter {
   route () {
     return {
       statusCode: 400
+
     }
   }
 }
