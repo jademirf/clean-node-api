@@ -4,15 +4,18 @@
   "description": "Estudando clean archtecture - Rodrigo Manguinho",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "prepare": "husky install"
   },
   "lint-staged": {
     "*.js": [
-      "standard"
+      "standard --fix"
     ]
   },
   "standard": {
-    "env": ["jest"]
+    "env": [
+      "jest"
+    ]
   },
   "husky": {
     "hooks": {
