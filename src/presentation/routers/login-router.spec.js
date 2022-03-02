@@ -7,7 +7,7 @@ class LoginRouter {
 }
 
 describe('Login Router', () => {
-  test('Should return 400 if no email is provided', () => {
+  test('Should return 400 if no email is provided.', () => {
     // sut = Single Unit Test
     const sut = new LoginRouter()
     const httpRequest = {
